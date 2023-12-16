@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+
+.bg-default {
+    background-color: #f7ecde;
+    height: 100vh;
+}
+
+.main h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    position: relative;
+}
+
+.main h1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #FEC261;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bookmark-body {
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+}
