@@ -9,6 +9,7 @@ if ('bookmarks' in localStorage) {
 }
 else {
     bookmarksList = [];
+    displayBookmarks(bookmarksList)
 }
 function createBokkmark() {
     if (validateForm() && !(siteName.classList.contains('is-invalid') || webSite.classList.contains('is-invalid'))) {
